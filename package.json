@@ -9,8 +9,8 @@
     "lint:format": "prettier --check \"**/*.{js,ts,tsx,md,mdx,json}\"",
     "clean": "rimraf node_modules",
     "add-changeset": "changeset add",
-    "version-packages": "changeset version",
-    "release": "changeset publish",
+    "version": "changeset version",
+    "publish": "changeset publish",
     "test": "turbo run test",
     "types:check": "turbo run types:check",
     "commit": "cz"

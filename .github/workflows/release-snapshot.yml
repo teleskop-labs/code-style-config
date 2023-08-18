@@ -14,10 +14,17 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      - name: Creating .npmrc file
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" >> .npmrc
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18.x
+          registry-url: https://registry.npmjs.org
 
       - uses: pnpm/action-setup@v2
         name: Install pnpm
@@ -46,9 +53,9 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          pnpm run version-packages --snapshot "${{ github.ref_name }}"
+          pnpm run version --snapshot "${{ github.ref_name }}"
           echo '---'
           echo 'Detected Changes:'
           git diff
           echo '---'
-          pnpm run release --tag "${{ github.ref_name }}" --no-git-tag
+          pnpm run publish --tag "${{ github.ref_name }}" --no-git-tag
