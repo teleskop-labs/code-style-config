@@ -10,7 +10,6 @@
     "clean": "rimraf node_modules",
     "add-changeset": "changeset add",
     "version-packages": "changeset version",
-    "prerelease": "yarn run build",
     "release": "changeset publish",
     "test": "turbo run test",
     "types:check": "turbo run types:check",
