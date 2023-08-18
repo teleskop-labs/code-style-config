@@ -52,4 +52,3 @@ jobs:
           git diff
           echo '---'
           pnpm run release --tag "${{ github.ref_name }}" --no-git-tag
-
