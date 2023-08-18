@@ -43,6 +43,9 @@ jobs:
         run: pnpm install
 
       - name: Create Snapshot Release
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pnpm run version-packages --snapshot "${{ github.ref_name }}"
           echo '---'
