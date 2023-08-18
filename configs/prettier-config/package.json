@@ -2,5 +2,8 @@
   "name": "@teleskop-labs/prettier-config",
   "version": "0.0.0",
   "description": "prettier-config",
-  "main": "index.js"
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  }
 }

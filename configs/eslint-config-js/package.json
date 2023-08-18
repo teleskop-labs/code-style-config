@@ -5,6 +5,9 @@
   "peerDependencies": {
     "eslint": ">=8.46.0"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^7.1.0",

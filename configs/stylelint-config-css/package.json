@@ -2,6 +2,9 @@
   "name": "@teleskop-labs/stylelint-config-css",
   "version": "0.0.0",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "stylelint": ">=15.10.0"
   },
