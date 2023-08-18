@@ -1,0 +1,16 @@
+{
+  "name": "@teleskop-labs/eslint-config-vue",
+  "version": "0.0.0",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=8.46.0",
+    "prettier": ">=2.8.4"
+  },
+  "dependencies": {
+    "@teleskop-labs/eslint-config-js": "workspace:*",
+    "@teleskop-labs/eslint-config-ts": "workspace:*",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "5.0.0-alpha.2",
+    "eslint-plugin-vue": "^9.17.0"
+  }
+}

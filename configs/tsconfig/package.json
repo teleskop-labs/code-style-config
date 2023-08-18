@@ -1,0 +1,11 @@
+{
+  "name": "@teleskop-labs/tsconfig",
+  "version": "0.0.0",
+  "license": "MIT",
+  "files": [
+    "./tsconfig.json",
+    "./tsconfig.base.json",
+    "./tsconfig.node.json",
+    "./tsconfig.web.json"
+  ]
+}

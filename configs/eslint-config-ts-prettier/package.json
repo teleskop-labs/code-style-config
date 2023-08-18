@@ -1,0 +1,14 @@
+{
+  "name": "@teleskop-labs/eslint-config-ts-prettier",
+  "version": "0.0.0",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=8.46.0",
+    "typescript": ">=5.1.0"
+  },
+  "dependencies": {
+    "@teleskop-labs/eslint-config-ts": "workspace:*",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "5.0.0-alpha.2"
+  }
+}
