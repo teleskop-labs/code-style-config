@@ -1,6 +1,6 @@
 {
   "name": "@teleskop-labs/eslint-config-js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "peerDependencies": {
     "eslint": ">=8.46.0"

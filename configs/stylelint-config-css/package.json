@@ -1,6 +1,6 @@
 {
   "name": "@teleskop-labs/stylelint-config-css",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
