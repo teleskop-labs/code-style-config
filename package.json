@@ -12,7 +12,7 @@
     "publish": "changeset publish",
     "test": "turbo run test",
     "types:check": "turbo run types:check",
-    "clean": "turbo run clean && rimraf pnpm-lock.yaml && rimraf node_modules",
+    "clean": "turbo run clean && rm -rf pnpm-lock.yaml && rm -rf node_modules",
     "bump": "taze major -I -r",
     "commit": "cz"
   },
@@ -41,7 +41,6 @@
     "husky": "8.0.3",
     "lint-staged": "14.0.1",
     "prettier": "3.0.2",
-    "rimraf": "5.0.1",
     "stylelint": "15.10.3",
     "syncpack": "11.2.1",
     "taze": "0.11.2",
