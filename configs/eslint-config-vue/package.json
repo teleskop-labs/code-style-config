@@ -2,6 +2,9 @@
   "name": "@teleskop-labs/eslint-config-vue",
   "version": "0.0.1",
   "main": "index.js",
+  "scripts": {
+    "clean": "rimraf .turbo && rimraf node_modules"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -12,8 +15,8 @@
   "dependencies": {
     "@teleskop-labs/eslint-config-js": "workspace:*",
     "@teleskop-labs/eslint-config-ts": "workspace:*",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "5.0.0-alpha.2",
-    "eslint-plugin-vue": "^9.17.0"
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-prettier": "5.0.0",
+    "eslint-plugin-vue": "9.17.0"
   }
 }

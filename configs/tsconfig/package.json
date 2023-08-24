@@ -8,6 +8,9 @@
     "./tsconfig.node.json",
     "./tsconfig.web.json"
   ],
+  "scripts": {
+    "clean": "rimraf .turbo && rimraf node_modules"
+  },
   "publishConfig": {
     "access": "public"
   }
