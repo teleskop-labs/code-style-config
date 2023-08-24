@@ -1,5 +1,14 @@
 # @teleskop-labs/eslint-config-vue
 
+## 0.0.2
+
+### Patch Changes
+
+- Bump
+- Updated dependencies
+  - @teleskop-labs/eslint-config-js@0.0.2
+  - @teleskop-labs/eslint-config-ts@0.0.2
+
 ## 0.0.1
 
 ### Patch Changes

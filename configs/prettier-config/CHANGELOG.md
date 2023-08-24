@@ -1,5 +1,11 @@
 # @teleskop-labs/prettier-config
 
+## 0.0.2
+
+### Patch Changes
+
+- Bump
+
 ## 0.0.1
 
 ### Patch Changes
