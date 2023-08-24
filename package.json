@@ -12,7 +12,7 @@
     "publish": "changeset publish",
     "test": "turbo run test",
     "types:check": "turbo run types:check",
-    "clean": "turbo run clean && rm -rf pnpm-lock.yaml && rm -rf node_modules",
+    "clean": "pnpm run --parallel -r clean && rm -rf node_modules && rm -rf pnpm-lock.yaml",
     "bump": "taze major -I -r",
     "commit": "cz"
   },
