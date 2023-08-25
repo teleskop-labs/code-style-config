@@ -1,5 +1,11 @@
 # @teleskop-labs/stylelint-config-css
 
+## 0.0.3
+
+### Patch Changes
+
+- Release packages
+
 ## 0.0.2
 
 ### Patch Changes
