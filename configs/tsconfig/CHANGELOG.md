@@ -1,5 +1,11 @@
 # @teleskop-labs/tsconfig
 
+## 0.0.4
+
+### Patch Changes
+
+- Release packages
+
 ## 0.0.3
 
 ### Patch Changes

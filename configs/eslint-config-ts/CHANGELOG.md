@@ -1,5 +1,13 @@
 # @teleskop-labs/eslint-config-ts
 
+## 0.0.4
+
+### Patch Changes
+
+- Release packages
+- Updated dependencies
+  - @teleskop-labs/eslint-config-js@0.0.4
+
 ## 0.0.3
 
 ### Patch Changes
